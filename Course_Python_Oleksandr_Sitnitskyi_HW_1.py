@@ -160,7 +160,7 @@ print(factorial)
 
 #14.Используя вложенные циклы и функции print(‘*’, end=’’), print(‘ ‘, end=’’) и print() выведите на экран прямоугольный треугольник.
 
-n=int(input("enter the no of rows :"))
+n=int(input("Введите цифру>>>>"))
 for i in range(0,n+1):
     for j in range(0,n-i):
         print(end=" ")
